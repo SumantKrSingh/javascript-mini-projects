@@ -1,0 +1,138 @@
+:root {
+    /* colour prop*/
+    --bcg-clr: #0e0222;
+    --primary-clr: #040c33e4;
+    --secondary-clr: #edeef4;
+    --border-clr: #36363d;
+
+    /* other prop */
+    --prime-rad: 1rem;
+    --seco-rad: 0.5rem
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bcg-clr);
+}
+
+.box {
+    background-color: var(--primary-clr);
+    border-radius: var(--prime-rad);
+    padding: 1.9rem;
+    width: 35rem;
+    box-shadow: 4px 4px 10px 5px rgba(25, 23, 23, 0.949);
+}
+
+.qr-header {
+    font-size: 1.6rem;
+    color: var(--secondary-clr);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.qr-header input {
+    margin-block: 0.7rem;
+    width: 99%;
+    padding: 0.5rem;
+}
+
+.qr-header input,
+select {
+    border-radius: var(--seco-rad);
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: 2px solid var(--border-clr);
+}
+
+.qr-header label {
+    color: var(--secondary-clr);
+    font-size: 1.3rem;
+
+}
+
+.qr-header div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qr-footer {
+    display: flex;
+    justify-content: center;
+
+}
+
+.qr-footer a {
+    text-decoration: none;
+    background-color: var(--secondary-clr);
+    font-size: 1.4rem;
+    padding: 0.8rem 2.1rem;
+    margin-inline: 5px;
+    border-radius: var(--seco-rad);
+
+}
+
+.qr-body {
+    display: grid;
+    place-items: center;
+    padding: 1.2rem;
+}
+
+.qr-body img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-block: 0.6rem;
+    padding: 1.2rem;
+    border: 1px dashed var(--border-clr);
+    border-radius: var(--seco-rad);
+}
+
+
+
+
+@media screen and (max-Width : 532px) {
+
+    .box {
+        width: 80%;
+    }
+
+    .qr-header h1 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .qr-footer a {
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+
+    .qr-header input {
+        margin-block: 0.6rem;
+        padding: 0.4rem;
+    }
+
+    .qr-header input,
+    select {
+        font-size: 0.8rem;
+        padding: 0.3rem;
+    }
+
+    .qr-header label {
+        font-size: 0.8rem;
+
+    }
+
+}
