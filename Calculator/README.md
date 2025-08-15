@@ -32,7 +32,7 @@ It supports basic arithmetic operations like addition, subtraction, multiplicati
 
 ## 📷 Preview
 
-![Calculator Screenshot](image.png) <!-- Optional: Add screenshot -->
+![Calculator Screenshot](image.png)
 
 ---
 
