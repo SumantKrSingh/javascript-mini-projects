@@ -26,7 +26,7 @@ This tool allows users to generate strong and secure random passwords with just 
 
 ## 📸 Screenshot
 
-![Password Generator Screenshot](./assets/Screenshot.png.png)
+![Password Generator Screenshot](./assets/Screenshot.png)
 
 ---
 
